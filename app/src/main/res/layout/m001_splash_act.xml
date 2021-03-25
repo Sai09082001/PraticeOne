@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<ImageView
+    android:src="@drawable/ic_aquaman"
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+<TextView
+    android:shadowDx="15"
+    android:shadowDy="15"
+    android:shadowColor="@color/purple_500"
+    android:shadowRadius="10"
+    android:textSize="24dp"
+    android:fontFamily="sans-serif-medium"
+    android:textColor="@color/teal_200"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:text="Big city boi Nguyen Hoai Nam\n from TechJA"
+    android:layout_height="wrap_content"/>
+</FrameLayout>
